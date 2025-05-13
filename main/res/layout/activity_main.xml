@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- ImageView to display the uploaded face image -->
+
+        <ImageView
+            android:id="@+id/skinImageView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="centerCrop"
+            tools:ignore="ContentDescription" />
+
+        <!-- Button to upload an image -->
+
+        <Button
+            android:id="@+id/uploadButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Upload Face Image"
+            tools:ignore="HardcodedText" />
+
+        <!-- Button to trigger skin analysis -->
+        <Button
+            android:id="@+id/skinAnalysisButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Analyze Skin"
+            android:layout_marginTop="20dp"
+            tools:ignore="HardcodedText" />
+
+
+
+        <!-- TextView to display skincare tips based on analysis -->
+        <TextView
+            android:id="@+id/skinTipsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Skin Analysis Tips will appear here."
+            android:textSize="16sp"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SkinCare</string>
+    <string name="select_face_image">Select Face Image</string>
+    <string name="todo">TODO</string>
+    <string name="ai">AI Tips will appear here</string>
+    <string name="select_image">Select Image</string>
+    <string name="analyze_skin">Analyze Skin</string>
+    <string name="ai_tips_will_appear_here">AI tips will appear here</string>
+    <string name="t">TODO</string>
+    <string name="image">Select Face Image</string>
+    <string name="tips">Skincare tips will appear here</string>
+    <string name="ai_skincare_tips_will_appear_here">AI skincare tips will appear here</string>
+    <string name="str">TODO</string>
+    <string name="analyze_skin1">Analyze Skin</string>
+    <string name="skin_analysis_tips_will_appear_here2">Skin Analysis Tips will appear here.</string>
+    <string name="h">TODO</string>
+</resources>
